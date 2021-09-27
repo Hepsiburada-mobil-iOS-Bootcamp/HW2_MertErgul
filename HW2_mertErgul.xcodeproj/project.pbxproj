@@ -76,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09079ADF270231B600964416 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		09FB49DC270223AE0091F9A0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +106,7 @@
 		09FB49E7270223AE0091F9A0 /* HW2_mertErgul */ = {
 			isa = PBXGroup;
 			children = (
+				09079ADF270231B600964416 /* Components */,
 				09FB49E8270223AE0091F9A0 /* AppDelegate.swift */,
 				09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */,
 				09FB49EC270223AE0091F9A0 /* ViewController.swift */,
