@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0948D3D627024738004EF496 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3D527024738004EF496 /* ActionButton.swift */; };
+		0948D3D927024D85004EF496 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3D827024D85004EF496 /* BaseView.swift */; };
+		0948D3DC27025110004EF496 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3DB27025110004EF496 /* FontManager.swift */; };
+		0948D3DE27025129004EF496 /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3DD27025129004EF496 /* GenericValueProtocol.swift */; };
+		0948D3E027025E02004EF496 /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3DF27025E02004EF496 /* ActionButtonData.swift */; };
+		0948D3E4270261DF004EF496 /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3E3270261DF004EF496 /* ActionButtonTheme.swift */; };
+		0948D3E627026240004EF496 /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3E527026240004EF496 /* ActionButtonType.swift */; };
+		0948D3E827026770004EF496 /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3E727026770004EF496 /* GenericBaseView.swift */; };
 		09FB49E9270223AE0091F9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49E8270223AE0091F9A0 /* AppDelegate.swift */; };
 		09FB49EB270223AE0091F9A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */; };
 		09FB49ED270223AE0091F9A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49EC270223AE0091F9A0 /* ViewController.swift */; };
@@ -36,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0948D3D527024738004EF496 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		0948D3D827024D85004EF496 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		0948D3DB27025110004EF496 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		0948D3DD27025129004EF496 /* GenericValueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
+		0948D3DF27025E02004EF496 /* ActionButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
+		0948D3E3270261DF004EF496 /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
+		0948D3E527026240004EF496 /* ActionButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
+		0948D3E727026770004EF496 /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
 		09FB49E5270223AE0091F9A0 /* HW2_mertErgul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2_mertErgul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FB49E8270223AE0091F9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,8 +95,38 @@
 		09079ADF270231B600964416 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				0948D3D42702471C004EF496 /* ActionButton */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		0948D3D42702471C004EF496 /* ActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				0948D3D527024738004EF496 /* ActionButton.swift */,
+				0948D3DF27025E02004EF496 /* ActionButtonData.swift */,
+				0948D3E527026240004EF496 /* ActionButtonType.swift */,
+				0948D3E3270261DF004EF496 /* ActionButtonTheme.swift */,
+			);
+			path = ActionButton;
+			sourceTree = "<group>";
+		};
+		0948D3D727024D3B004EF496 /* BaseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0948D3D827024D85004EF496 /* BaseView.swift */,
+				0948D3E727026770004EF496 /* GenericBaseView.swift */,
+			);
+			path = BaseComponents;
+			sourceTree = "<group>";
+		};
+		0948D3DA270250FF004EF496 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0948D3DB27025110004EF496 /* FontManager.swift */,
+				0948D3DD27025129004EF496 /* GenericValueProtocol.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		09FB49DC270223AE0091F9A0 = {
@@ -106,6 +152,8 @@
 		09FB49E7270223AE0091F9A0 /* HW2_mertErgul */ = {
 			isa = PBXGroup;
 			children = (
+				0948D3DA270250FF004EF496 /* Utils */,
+				0948D3D727024D3B004EF496 /* BaseComponents */,
 				09079ADF270231B600964416 /* Components */,
 				09FB49E8270223AE0091F9A0 /* AppDelegate.swift */,
 				09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */,
@@ -268,7 +316,15 @@
 			files = (
 				09FB49ED270223AE0091F9A0 /* ViewController.swift in Sources */,
 				09FB49E9270223AE0091F9A0 /* AppDelegate.swift in Sources */,
+				0948D3D927024D85004EF496 /* BaseView.swift in Sources */,
+				0948D3E627026240004EF496 /* ActionButtonType.swift in Sources */,
 				09FB49EB270223AE0091F9A0 /* SceneDelegate.swift in Sources */,
+				0948D3E827026770004EF496 /* GenericBaseView.swift in Sources */,
+				0948D3E4270261DF004EF496 /* ActionButtonTheme.swift in Sources */,
+				0948D3DC27025110004EF496 /* FontManager.swift in Sources */,
+				0948D3E027025E02004EF496 /* ActionButtonData.swift in Sources */,
+				0948D3D627024738004EF496 /* ActionButton.swift in Sources */,
+				0948D3DE27025129004EF496 /* GenericValueProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
