@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FB49E9270223AE0091F9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49E8270223AE0091F9A0 /* AppDelegate.swift */; };
+		09FB49EB270223AE0091F9A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */; };
+		09FB49ED270223AE0091F9A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49EC270223AE0091F9A0 /* ViewController.swift */; };
+		09FB49F0270223AE0091F9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FB49EE270223AE0091F9A0 /* Main.storyboard */; };
+		09FB49F2270223AF0091F9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FB49F1270223AF0091F9A0 /* Assets.xcassets */; };
+		09FB49F5270223AF0091F9A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FB49F3270223AF0091F9A0 /* LaunchScreen.storyboard */; };
+		09FB4A00270223AF0091F9A0 /* HW2_mertErgulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49FF270223AF0091F9A0 /* HW2_mertErgulTests.swift */; };
+		09FB4A0A270223AF0091F9A0 /* HW2_mertErgulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB4A09270223AF0091F9A0 /* HW2_mertErgulUITests.swift */; };
+		09FB4A0C270223AF0091F9A0 /* HW2_mertErgulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB4A0B270223AF0091F9A0 /* HW2_mertErgulUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09FB49FC270223AF0091F9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09FB49DD270223AE0091F9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FB49E4270223AE0091F9A0;
+			remoteInfo = HW2_mertErgul;
+		};
+		09FB4A06270223AF0091F9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09FB49DD270223AE0091F9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FB49E4270223AE0091F9A0;
+			remoteInfo = HW2_mertErgul;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09FB49E5270223AE0091F9A0 /* HW2_mertErgul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2_mertErgul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FB49E8270223AE0091F9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09FB49EC270223AE0091F9A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09FB49EF270223AE0091F9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09FB49F1270223AF0091F9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09FB49F4270223AF0091F9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09FB49F6270223AF0091F9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FB49FB270223AF0091F9A0 /* HW2_mertErgulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2_mertErgulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FB49FF270223AF0091F9A0 /* HW2_mertErgulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_mertErgulTests.swift; sourceTree = "<group>"; };
+		09FB4A05270223AF0091F9A0 /* HW2_mertErgulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2_mertErgulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FB4A09270223AF0091F9A0 /* HW2_mertErgulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_mertErgulUITests.swift; sourceTree = "<group>"; };
+		09FB4A0B270223AF0091F9A0 /* HW2_mertErgulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_mertErgulUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FB49E2270223AE0091F9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FB49F8270223AF0091F9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FB4A02270223AF0091F9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FB49DC270223AE0091F9A0 = {
+			isa = PBXGroup;
+			children = (
+				09FB49E7270223AE0091F9A0 /* HW2_mertErgul */,
+				09FB49FE270223AF0091F9A0 /* HW2_mertErgulTests */,
+				09FB4A08270223AF0091F9A0 /* HW2_mertErgulUITests */,
+				09FB49E6270223AE0091F9A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09FB49E6270223AE0091F9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FB49E5270223AE0091F9A0 /* HW2_mertErgul.app */,
+				09FB49FB270223AF0091F9A0 /* HW2_mertErgulTests.xctest */,
+				09FB4A05270223AF0091F9A0 /* HW2_mertErgulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FB49E7270223AE0091F9A0 /* HW2_mertErgul */ = {
+			isa = PBXGroup;
+			children = (
+				09FB49E8270223AE0091F9A0 /* AppDelegate.swift */,
+				09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */,
+				09FB49EC270223AE0091F9A0 /* ViewController.swift */,
+				09FB49EE270223AE0091F9A0 /* Main.storyboard */,
+				09FB49F1270223AF0091F9A0 /* Assets.xcassets */,
+				09FB49F3270223AF0091F9A0 /* LaunchScreen.storyboard */,
+				09FB49F6270223AF0091F9A0 /* Info.plist */,
+			);
+			path = HW2_mertErgul;
+			sourceTree = "<group>";
+		};
+		09FB49FE270223AF0091F9A0 /* HW2_mertErgulTests */ = {
+			isa = PBXGroup;
+			children = (
+				09FB49FF270223AF0091F9A0 /* HW2_mertErgulTests.swift */,
+			);
+			path = HW2_mertErgulTests;
+			sourceTree = "<group>";
+		};
+		09FB4A08270223AF0091F9A0 /* HW2_mertErgulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09FB4A09270223AF0091F9A0 /* HW2_mertErgulUITests.swift */,
+				09FB4A0B270223AF0091F9A0 /* HW2_mertErgulUITestsLaunchTests.swift */,
+			);
+			path = HW2_mertErgulUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FB49E4270223AE0091F9A0 /* HW2_mertErgul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FB4A0F270223AF0091F9A0 /* Build configuration list for PBXNativeTarget "HW2_mertErgul" */;
+			buildPhases = (
+				09FB49E1270223AE0091F9A0 /* Sources */,
+				09FB49E2270223AE0091F9A0 /* Frameworks */,
+				09FB49E3270223AE0091F9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HW2_mertErgul;
+			productName = HW2_mertErgul;
+			productReference = 09FB49E5270223AE0091F9A0 /* HW2_mertErgul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09FB49FA270223AF0091F9A0 /* HW2_mertErgulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FB4A12270223AF0091F9A0 /* Build configuration list for PBXNativeTarget "HW2_mertErgulTests" */;
+			buildPhases = (
+				09FB49F7270223AF0091F9A0 /* Sources */,
+				09FB49F8270223AF0091F9A0 /* Frameworks */,
+				09FB49F9270223AF0091F9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09FB49FD270223AF0091F9A0 /* PBXTargetDependency */,
+			);
+			name = HW2_mertErgulTests;
+			productName = HW2_mertErgulTests;
+			productReference = 09FB49FB270223AF0091F9A0 /* HW2_mertErgulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09FB4A04270223AF0091F9A0 /* HW2_mertErgulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FB4A15270223AF0091F9A0 /* Build configuration list for PBXNativeTarget "HW2_mertErgulUITests" */;
+			buildPhases = (
+				09FB4A01270223AF0091F9A0 /* Sources */,
+				09FB4A02270223AF0091F9A0 /* Frameworks */,
+				09FB4A03270223AF0091F9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09FB4A07270223AF0091F9A0 /* PBXTargetDependency */,
+			);
+			name = HW2_mertErgulUITests;
+			productName = HW2_mertErgulUITests;
+			productReference = 09FB4A05270223AF0091F9A0 /* HW2_mertErgulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FB49DD270223AE0091F9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					09FB49E4270223AE0091F9A0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					09FB49FA270223AF0091F9A0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 09FB49E4270223AE0091F9A0;
+					};
+					09FB4A04270223AF0091F9A0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 09FB49E4270223AE0091F9A0;
+					};
+				};
+			};
+			buildConfigurationList = 09FB49E0270223AE0091F9A0 /* Build configuration list for PBXProject "HW2_mertErgul" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09FB49DC270223AE0091F9A0;
+			productRefGroup = 09FB49E6270223AE0091F9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FB49E4270223AE0091F9A0 /* HW2_mertErgul */,
+				09FB49FA270223AF0091F9A0 /* HW2_mertErgulTests */,
+				09FB4A04270223AF0091F9A0 /* HW2_mertErgulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FB49E3270223AE0091F9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FB49F5270223AF0091F9A0 /* LaunchScreen.storyboard in Resources */,
+				09FB49F2270223AF0091F9A0 /* Assets.xcassets in Resources */,
+				09FB49F0270223AE0091F9A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FB49F9270223AF0091F9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FB4A03270223AF0091F9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FB49E1270223AE0091F9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FB49ED270223AE0091F9A0 /* ViewController.swift in Sources */,
+				09FB49E9270223AE0091F9A0 /* AppDelegate.swift in Sources */,
+				09FB49EB270223AE0091F9A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FB49F7270223AF0091F9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FB4A00270223AF0091F9A0 /* HW2_mertErgulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FB4A01270223AF0091F9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FB4A0C270223AF0091F9A0 /* HW2_mertErgulUITestsLaunchTests.swift in Sources */,
+				09FB4A0A270223AF0091F9A0 /* HW2_mertErgulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09FB49FD270223AF0091F9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09FB49E4270223AE0091F9A0 /* HW2_mertErgul */;
+			targetProxy = 09FB49FC270223AF0091F9A0 /* PBXContainerItemProxy */;
+		};
+		09FB4A07270223AF0091F9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09FB49E4270223AE0091F9A0 /* HW2_mertErgul */;
+			targetProxy = 09FB4A06270223AF0091F9A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09FB49EE270223AE0091F9A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FB49EF270223AE0091F9A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09FB49F3270223AF0091F9A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FB49F4270223AF0091F9A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FB4A0D270223AF0091F9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09FB4A0E270223AF0091F9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FB4A10270223AF0091F9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4F3J5D7U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HW2_mertErgul/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ergul.HW2-mertErgul";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09FB4A11270223AF0091F9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4F3J5D7U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HW2_mertErgul/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ergul.HW2-mertErgul";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09FB4A13270223AF0091F9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4F3J5D7U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ergul.HW2-mertErgulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW2_mertErgul.app/HW2_mertErgul";
+			};
+			name = Debug;
+		};
+		09FB4A14270223AF0091F9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4F3J5D7U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ergul.HW2-mertErgulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW2_mertErgul.app/HW2_mertErgul";
+			};
+			name = Release;
+		};
+		09FB4A16270223AF0091F9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4F3J5D7U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ergul.HW2-mertErgulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HW2_mertErgul;
+			};
+			name = Debug;
+		};
+		09FB4A17270223AF0091F9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4F3J5D7U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ergul.HW2-mertErgulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HW2_mertErgul;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FB49E0270223AE0091F9A0 /* Build configuration list for PBXProject "HW2_mertErgul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FB4A0D270223AF0091F9A0 /* Debug */,
+				09FB4A0E270223AF0091F9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FB4A0F270223AF0091F9A0 /* Build configuration list for PBXNativeTarget "HW2_mertErgul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FB4A10270223AF0091F9A0 /* Debug */,
+				09FB4A11270223AF0091F9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FB4A12270223AF0091F9A0 /* Build configuration list for PBXNativeTarget "HW2_mertErgulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FB4A13270223AF0091F9A0 /* Debug */,
+				09FB4A14270223AF0091F9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FB4A15270223AF0091F9A0 /* Build configuration list for PBXNativeTarget "HW2_mertErgulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FB4A16270223AF0091F9A0 /* Debug */,
+				09FB4A17270223AF0091F9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FB49DD270223AE0091F9A0 /* Project object */;
+}
