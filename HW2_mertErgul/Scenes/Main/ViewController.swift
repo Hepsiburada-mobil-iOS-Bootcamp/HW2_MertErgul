@@ -8,31 +8,35 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     private var actionButton: ActionButton!
     private var actionButton2: ActionButton!
     
-
+    @IBAction func camareButtonTapped(_ sender: Any) {
+        print("Camera Tapped")
+    }
+    @IBAction func photosButtonTapped(_ sender: Any) {
+        print("Photos Tapped")
+    }
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         addActionButton()
         
-        DispatchQueue.main.asyncAfter(deadline: .now()+3){
-            self.actionButton.setData(by: ActionButtonData(text: "OK", buttonType: .filled(.smooth)))
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            self.actionButton.setData(by: ActionButtonData(text: "OK", buttonType:
+                                                                .filled(.smooth)))
         }
-//        DispatchQueue.main.asyncAfter(deadline: .now()+3){
-        self.actionButton2.setData(by: ActionButtonData(text: "noOK", buttonType: .outlined(.smooth)))
-//        }
+        
     }
     
     private func addActionButton(){
         actionButton = ActionButton()
-        actionButton2 = ActionButton()
-        
         actionButton.translatesAutoresizingMaskIntoConstraints = false
         
+        actionButton.delegate = self
+    
         view.addSubview(actionButton)
         
         NSLayoutConstraint.activate([
@@ -43,6 +47,7 @@ class ViewController: UIViewController {
             actionButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
 
         ])
+        actionButton2 = ActionButton(frame: .zero, data: ActionButtonData(text: "OK", buttonType: .outlined(.smooth)))
         actionButton2.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(actionButton2)
@@ -57,7 +62,10 @@ class ViewController: UIViewController {
         ])
         
     }
-
-
+}
+extension ViewController: ActionButtonDelegeta {
+    func actionButtonPressed() {
+        print("ViewControl is informed")
+    }
 }
 

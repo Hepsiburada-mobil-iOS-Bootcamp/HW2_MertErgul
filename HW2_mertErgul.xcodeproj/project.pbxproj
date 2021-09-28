@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091D86D92703832900937576 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091D86D82703832900937576 /* UIView+Extensions.swift */; };
 		0948D3D627024738004EF496 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3D527024738004EF496 /* ActionButton.swift */; };
 		0948D3D927024D85004EF496 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3D827024D85004EF496 /* BaseView.swift */; };
 		0948D3DC27025110004EF496 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3DB27025110004EF496 /* FontManager.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091D86D82703832900937576 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		0948D3D527024738004EF496 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		0948D3D827024D85004EF496 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		0948D3DB27025110004EF496 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 			path = FontManagers;
 			sourceTree = "<group>";
 		};
+		091D86D62703828B00937576 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				091D86D82703832900937576 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0948D3D42702471C004EF496 /* ActionButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +142,7 @@
 		0948D3DA270250FF004EF496 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				091D86D62703828B00937576 /* Extensions */,
 				091D86D5270380F200937576 /* FontManagers */,
 			);
 			path = Utils;
@@ -328,6 +339,7 @@
 				0948D3E627026240004EF496 /* ActionButtonType.swift in Sources */,
 				09FB49EB270223AE0091F9A0 /* SceneDelegate.swift in Sources */,
 				0948D3E827026770004EF496 /* GenericBaseView.swift in Sources */,
+				091D86D92703832900937576 /* UIView+Extensions.swift in Sources */,
 				0948D3E4270261DF004EF496 /* ActionButtonTheme.swift in Sources */,
 				0948D3DC27025110004EF496 /* FontManager.swift in Sources */,
 				0948D3E027025E02004EF496 /* ActionButtonData.swift in Sources */,

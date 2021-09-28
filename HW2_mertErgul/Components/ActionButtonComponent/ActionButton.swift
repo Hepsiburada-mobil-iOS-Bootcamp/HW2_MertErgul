@@ -7,7 +7,14 @@
 
 import UIKit
 
+protocol ActionButtonDelegeta: AnyObject{
+    func actionButtonPressed()
+    
+}
+
 class ActionButton: GenericBaseView<ActionButtonData> {
+    
+    weak var delegate : ActionButtonDelegeta?
     
     private lazy var shadowContainer: UIView = {
         let temp = UIView()
@@ -34,6 +41,8 @@ class ActionButton: GenericBaseView<ActionButtonData> {
     override func addMajorViewComponents() {
         super.addMajorViewComponents()
         addContainerView()
+        
+        
     }
     override func setupViewConfigurations() {
         super.setupViewConfigurations()
@@ -102,7 +111,15 @@ extension ActionButton: UIGestureRecognizerDelegate {
         
     }
     @objc fileprivate func buttonTapped(_ sender: UITapGestureRecognizer){
-        print("Bana Basıldı")
+        isUserInteractionEnabled = false
+        startTappedAnimation{finish in
+            if finish {
+                print("CLICKED")
+                self.delegate?.actionButtonPressed()
+                self.isUserInteractionEnabled = true
+            }
+            
+        }
         
     }
     
