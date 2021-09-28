@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; configuration.title = "Camera"; ObjectID = "SN1-E3-dhn"; */
+"SN1-E3-dhn.configuration.title" = "Camera";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SN1-E3-dhn"; */
+"SN1-E3-dhn.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Photos"; ObjectID = "ocZ-q1-NXB"; */
+"ocZ-q1-NXB.configuration.title" = "Photos";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ocZ-q1-NXB"; */
+"ocZ-q1-NXB.normalTitle" = "Button";

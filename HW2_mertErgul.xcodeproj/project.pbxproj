@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091D86D92703832900937576 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091D86D82703832900937576 /* UIView+Extensions.swift */; };
 		0948D3D627024738004EF496 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3D527024738004EF496 /* ActionButton.swift */; };
 		0948D3D927024D85004EF496 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3D827024D85004EF496 /* BaseView.swift */; };
 		0948D3DC27025110004EF496 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3DB27025110004EF496 /* FontManager.swift */; };
@@ -15,6 +16,24 @@
 		0948D3E4270261DF004EF496 /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3E3270261DF004EF496 /* ActionButtonTheme.swift */; };
 		0948D3E627026240004EF496 /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3E527026240004EF496 /* ActionButtonType.swift */; };
 		0948D3E827026770004EF496 /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948D3E727026770004EF496 /* GenericBaseView.swift */; };
+		09AA2DFE27079397005282DF /* PermissionMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2DFD27079397005282DF /* PermissionMainView.swift */; };
+		09AA2E01270793B0005282DF /* PermissionMainViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E00270793B0005282DF /* PermissionMainViewData.swift */; };
+		09AA2E0427079429005282DF /* LabelPackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E0327079429005282DF /* LabelPackComponent.swift */; };
+		09AA2E0627079431005282DF /* LabelPackComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E0527079431005282DF /* LabelPackComponentData.swift */; };
+		09AA2E092707947A005282DF /* ActionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E082707947A005282DF /* ActionModule.swift */; };
+		09AA2E0B27079483005282DF /* ActionModuleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E0A27079483005282DF /* ActionModuleData.swift */; };
+		09AA2E0D2707951C005282DF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E0C2707951C005282DF /* BaseViewController.swift */; };
+		09AA2E12270795F4005282DF /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E11270795F4005282DF /* PermissionViewController.swift */; };
+		09AA2E1427079610005282DF /* PermissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E1327079610005282DF /* PermissionViewModel.swift */; };
+		09AA2E162707961C005282DF /* PermissionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E152707961C005282DF /* PermissionViewBuilder.swift */; };
+		09AA2E1A27079708005282DF /* PermissionViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E1927079708005282DF /* PermissionViewFactory.swift */; };
+		09AA2E22270797EC005282DF /* PhotosPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E21270797EC005282DF /* PhotosPermissionManager.swift */; };
+		09AA2E24270797FE005282DF /* CameraPermisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E23270797FE005282DF /* CameraPermisionManager.swift */; };
+		09AA2E2627079813005282DF /* PermissionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E2527079813005282DF /* PermissionManagerProtocol.swift */; };
+		09AA2E2827079A3C005282DF /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E2727079A3C005282DF /* String+Extension.swift */; };
+		09AA2E2B27079A88005282DF /* PermissionLocalizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E2A27079A88005282DF /* PermissionLocalizables.swift */; };
+		09AA2E3027079ACE005282DF /* PermissionImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA2E2F27079ACE005282DF /* PermissionImages.swift */; };
+		09AA2E3627079C77005282DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09AA2E3827079C77005282DF /* Localizable.strings */; };
 		09FB49E9270223AE0091F9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49E8270223AE0091F9A0 /* AppDelegate.swift */; };
 		09FB49EB270223AE0091F9A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */; };
 		09FB49ED270223AE0091F9A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB49EC270223AE0091F9A0 /* ViewController.swift */; };
@@ -44,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091D86D82703832900937576 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		0948D3D527024738004EF496 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		0948D3D827024D85004EF496 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		0948D3DB27025110004EF496 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
@@ -52,6 +72,25 @@
 		0948D3E3270261DF004EF496 /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
 		0948D3E527026240004EF496 /* ActionButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
 		0948D3E727026770004EF496 /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
+		09AA2DFD27079397005282DF /* PermissionMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionMainView.swift; sourceTree = "<group>"; };
+		09AA2E00270793B0005282DF /* PermissionMainViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionMainViewData.swift; sourceTree = "<group>"; };
+		09AA2E0327079429005282DF /* LabelPackComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponent.swift; sourceTree = "<group>"; };
+		09AA2E0527079431005282DF /* LabelPackComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponentData.swift; sourceTree = "<group>"; };
+		09AA2E082707947A005282DF /* ActionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModule.swift; sourceTree = "<group>"; };
+		09AA2E0A27079483005282DF /* ActionModuleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModuleData.swift; sourceTree = "<group>"; };
+		09AA2E0C2707951C005282DF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		09AA2E11270795F4005282DF /* PermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
+		09AA2E1327079610005282DF /* PermissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewModel.swift; sourceTree = "<group>"; };
+		09AA2E152707961C005282DF /* PermissionViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewBuilder.swift; sourceTree = "<group>"; };
+		09AA2E1927079708005282DF /* PermissionViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewFactory.swift; sourceTree = "<group>"; };
+		09AA2E21270797EC005282DF /* PhotosPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPermissionManager.swift; sourceTree = "<group>"; };
+		09AA2E23270797FE005282DF /* CameraPermisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermisionManager.swift; sourceTree = "<group>"; };
+		09AA2E2527079813005282DF /* PermissionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManagerProtocol.swift; sourceTree = "<group>"; };
+		09AA2E2727079A3C005282DF /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		09AA2E2A27079A88005282DF /* PermissionLocalizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionLocalizables.swift; sourceTree = "<group>"; };
+		09AA2E2F27079ACE005282DF /* PermissionImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionImages.swift; sourceTree = "<group>"; };
+		09AA2E3727079C77005282DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		09AA2E3927079C97005282DF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		09FB49E5270223AE0091F9A0 /* HW2_mertErgul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2_mertErgul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FB49E8270223AE0091F9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +134,10 @@
 		09079ADF270231B600964416 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				0948D3D42702471C004EF496 /* ActionButton */,
+				09AA2DFC27079366005282DF /* PermissionMainComponent */,
+				09AA2E022707940D005282DF /* LabelPackComponent */,
+				09AA2E072707945F005282DF /* ActionModuleComponent */,
+				0948D3D42702471C004EF496 /* ActionButtonComponent */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -108,7 +150,16 @@
 			path = FontManagers;
 			sourceTree = "<group>";
 		};
-		0948D3D42702471C004EF496 /* ActionButton */ = {
+		091D86D62703828B00937576 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				091D86D82703832900937576 /* UIView+Extensions.swift */,
+				09AA2E2727079A3C005282DF /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0948D3D42702471C004EF496 /* ActionButtonComponent */ = {
 			isa = PBXGroup;
 			children = (
 				0948D3D527024738004EF496 /* ActionButton.swift */,
@@ -116,7 +167,7 @@
 				0948D3E527026240004EF496 /* ActionButtonType.swift */,
 				0948D3E3270261DF004EF496 /* ActionButtonTheme.swift */,
 			);
-			path = ActionButton;
+			path = ActionButtonComponent;
 			sourceTree = "<group>";
 		};
 		0948D3D727024D3B004EF496 /* BaseComponents */ = {
@@ -125,6 +176,7 @@
 				0948D3DD27025129004EF496 /* GenericValueProtocol.swift */,
 				0948D3D827024D85004EF496 /* BaseView.swift */,
 				0948D3E727026770004EF496 /* GenericBaseView.swift */,
+				09AA2E0C2707951C005282DF /* BaseViewController.swift */,
 			);
 			path = BaseComponents;
 			sourceTree = "<group>";
@@ -132,9 +184,133 @@
 		0948D3DA270250FF004EF496 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				09AA2E2C27079AA0005282DF /* AssetHelpers */,
+				09AA2E2927079A7F005282DF /* PermissionLocalizables */,
+				091D86D62703828B00937576 /* Extensions */,
 				091D86D5270380F200937576 /* FontManagers */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		09AA2DFC27079366005282DF /* PermissionMainComponent */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2DFD27079397005282DF /* PermissionMainView.swift */,
+				09AA2E00270793B0005282DF /* PermissionMainViewData.swift */,
+			);
+			path = PermissionMainComponent;
+			sourceTree = "<group>";
+		};
+		09AA2E022707940D005282DF /* LabelPackComponent */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E0327079429005282DF /* LabelPackComponent.swift */,
+				09AA2E0527079431005282DF /* LabelPackComponentData.swift */,
+			);
+			path = LabelPackComponent;
+			sourceTree = "<group>";
+		};
+		09AA2E072707945F005282DF /* ActionModuleComponent */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E082707947A005282DF /* ActionModule.swift */,
+				09AA2E0A27079483005282DF /* ActionModuleData.swift */,
+			);
+			path = ActionModuleComponent;
+			sourceTree = "<group>";
+		};
+		09AA2E0E2707957C005282DF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E18270796ED005282DF /* PermissionViewFactory */,
+				09AA2E1C27079756005282DF /* PhotosPermissionManager */,
+				09AA2E1E2707977F005282DF /* CameraPermissionManager */,
+				09AA2E2027079796005282DF /* Permission Protocols */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		09AA2E0F2707958A005282DF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E10270795C7005282DF /* Permission */,
+				09AA2E1727079644005282DF /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		09AA2E10270795C7005282DF /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E11270795F4005282DF /* PermissionViewController.swift */,
+				09AA2E1327079610005282DF /* PermissionViewModel.swift */,
+				09AA2E152707961C005282DF /* PermissionViewBuilder.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		09AA2E1727079644005282DF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				09FB49EC270223AE0091F9A0 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		09AA2E18270796ED005282DF /* PermissionViewFactory */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E1927079708005282DF /* PermissionViewFactory.swift */,
+			);
+			path = PermissionViewFactory;
+			sourceTree = "<group>";
+		};
+		09AA2E1C27079756005282DF /* PhotosPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E21270797EC005282DF /* PhotosPermissionManager.swift */,
+			);
+			path = PhotosPermissionManager;
+			sourceTree = "<group>";
+		};
+		09AA2E1E2707977F005282DF /* CameraPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E23270797FE005282DF /* CameraPermisionManager.swift */,
+			);
+			path = CameraPermissionManager;
+			sourceTree = "<group>";
+		};
+		09AA2E2027079796005282DF /* Permission Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E2527079813005282DF /* PermissionManagerProtocol.swift */,
+			);
+			path = "Permission Protocols";
+			sourceTree = "<group>";
+		};
+		09AA2E2927079A7F005282DF /* PermissionLocalizables */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E2A27079A88005282DF /* PermissionLocalizables.swift */,
+			);
+			path = PermissionLocalizables;
+			sourceTree = "<group>";
+		};
+		09AA2E2C27079AA0005282DF /* AssetHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E2D27079AAD005282DF /* PermissionImages */,
+			);
+			path = AssetHelpers;
+			sourceTree = "<group>";
+		};
+		09AA2E2D27079AAD005282DF /* PermissionImages */ = {
+			isa = PBXGroup;
+			children = (
+				09AA2E2F27079ACE005282DF /* PermissionImages.swift */,
+			);
+			path = PermissionImages;
 			sourceTree = "<group>";
 		};
 		09FB49DC270223AE0091F9A0 = {
@@ -160,16 +336,18 @@
 		09FB49E7270223AE0091F9A0 /* HW2_mertErgul */ = {
 			isa = PBXGroup;
 			children = (
-				0948D3DA270250FF004EF496 /* Utils */,
+				09AA2E0E2707957C005282DF /* Managers */,
+				09AA2E0F2707958A005282DF /* Scenes */,
 				0948D3D727024D3B004EF496 /* BaseComponents */,
 				09079ADF270231B600964416 /* Components */,
+				0948D3DA270250FF004EF496 /* Utils */,
 				09FB49E8270223AE0091F9A0 /* AppDelegate.swift */,
 				09FB49EA270223AE0091F9A0 /* SceneDelegate.swift */,
-				09FB49EC270223AE0091F9A0 /* ViewController.swift */,
 				09FB49EE270223AE0091F9A0 /* Main.storyboard */,
 				09FB49F1270223AF0091F9A0 /* Assets.xcassets */,
 				09FB49F3270223AF0091F9A0 /* LaunchScreen.storyboard */,
 				09FB49F6270223AF0091F9A0 /* Info.plist */,
+				09AA2E3827079C77005282DF /* Localizable.strings */,
 			);
 			path = HW2_mertErgul;
 			sourceTree = "<group>";
@@ -277,6 +455,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 09FB49DC270223AE0091F9A0;
 			productRefGroup = 09FB49E6270223AE0091F9A0 /* Products */;
@@ -296,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FB49F5270223AF0091F9A0 /* LaunchScreen.storyboard in Resources */,
+				09AA2E3627079C77005282DF /* Localizable.strings in Resources */,
 				09FB49F2270223AF0091F9A0 /* Assets.xcassets in Resources */,
 				09FB49F0270223AE0091F9A0 /* Main.storyboard in Resources */,
 			);
@@ -323,16 +503,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FB49ED270223AE0091F9A0 /* ViewController.swift in Sources */,
+				09AA2E2B27079A88005282DF /* PermissionLocalizables.swift in Sources */,
 				09FB49E9270223AE0091F9A0 /* AppDelegate.swift in Sources */,
 				0948D3D927024D85004EF496 /* BaseView.swift in Sources */,
+				09AA2E092707947A005282DF /* ActionModule.swift in Sources */,
+				09AA2E0D2707951C005282DF /* BaseViewController.swift in Sources */,
+				09AA2E0627079431005282DF /* LabelPackComponentData.swift in Sources */,
+				09AA2E1A27079708005282DF /* PermissionViewFactory.swift in Sources */,
+				09AA2E1427079610005282DF /* PermissionViewModel.swift in Sources */,
+				09AA2E0B27079483005282DF /* ActionModuleData.swift in Sources */,
 				0948D3E627026240004EF496 /* ActionButtonType.swift in Sources */,
 				09FB49EB270223AE0091F9A0 /* SceneDelegate.swift in Sources */,
+				09AA2E12270795F4005282DF /* PermissionViewController.swift in Sources */,
 				0948D3E827026770004EF496 /* GenericBaseView.swift in Sources */,
+				09AA2E0427079429005282DF /* LabelPackComponent.swift in Sources */,
+				09AA2E01270793B0005282DF /* PermissionMainViewData.swift in Sources */,
+				09AA2E24270797FE005282DF /* CameraPermisionManager.swift in Sources */,
+				09AA2E2627079813005282DF /* PermissionManagerProtocol.swift in Sources */,
+				091D86D92703832900937576 /* UIView+Extensions.swift in Sources */,
+				09AA2E162707961C005282DF /* PermissionViewBuilder.swift in Sources */,
+				09AA2E2827079A3C005282DF /* String+Extension.swift in Sources */,
+				09AA2E22270797EC005282DF /* PhotosPermissionManager.swift in Sources */,
+				09AA2DFE27079397005282DF /* PermissionMainView.swift in Sources */,
 				0948D3E4270261DF004EF496 /* ActionButtonTheme.swift in Sources */,
 				0948D3DC27025110004EF496 /* FontManager.swift in Sources */,
 				0948D3E027025E02004EF496 /* ActionButtonData.swift in Sources */,
 				0948D3D627024738004EF496 /* ActionButton.swift in Sources */,
 				0948D3DE27025129004EF496 /* GenericValueProtocol.swift in Sources */,
+				09AA2E3027079ACE005282DF /* PermissionImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +567,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		09AA2E3827079C77005282DF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09AA2E3727079C77005282DF /* en */,
+				09AA2E3927079C97005282DF /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		09FB49EE270223AE0091F9A0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -392,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -453,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
