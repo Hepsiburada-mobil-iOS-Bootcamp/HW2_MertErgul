@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     private var actionButton: ActionButton!
     private var actionButton2: ActionButton!
+    
 
     
 
@@ -21,10 +22,15 @@ class ViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now()+3){
             self.actionButton.setData(by: ActionButtonData(text: "OK", buttonType: .filled(.smooth)))
         }
+//        DispatchQueue.main.asyncAfter(deadline: .now()+3){
+        self.actionButton2.setData(by: ActionButtonData(text: "noOK", buttonType: .outlined(.smooth)))
+//        }
     }
     
     private func addActionButton(){
         actionButton = ActionButton()
+        actionButton2 = ActionButton()
+        
         actionButton.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(actionButton)
@@ -37,7 +43,6 @@ class ViewController: UIViewController {
             actionButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
 
         ])
-        actionButton2 = ActionButton(frame: .zero, data: ActionButtonData(text: "OK", buttonType: .outlined(.smooth)))
         actionButton2.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(actionButton2)

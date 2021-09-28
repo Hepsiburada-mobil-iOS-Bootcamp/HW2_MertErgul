@@ -17,6 +17,7 @@ class ActionButton: GenericBaseView<ActionButtonData> {
         temp.layer.shadowRadius = 4
         temp.layer.shadowOpacity = 0.4
         temp.layer.cornerRadius = 6
+//        temp.backgroundColor = .red
         return temp
     }()
     
@@ -36,7 +37,7 @@ class ActionButton: GenericBaseView<ActionButtonData> {
     }
     override func setupViewConfigurations() {
         super.setupViewConfigurations()
-        addTabDesturs()
+        addTabGasture()
     }
     
     private lazy var infoTitle: UILabel = {
@@ -46,6 +47,8 @@ class ActionButton: GenericBaseView<ActionButtonData> {
         temp.text = " "
         temp.contentMode = .center
         temp.textAlignment = .center
+        temp.textColor = .white
+        
         return temp
     }()
     
@@ -92,6 +95,19 @@ class ActionButton: GenericBaseView<ActionButtonData> {
 }
 
 extension ActionButton: UIGestureRecognizerDelegate {
-    func 48.45
+    private func addTabGasture(){
+        let tap = UITapGestureRecognizer(target: self, action: .buttonTappedSelector)
+        tap.delegate = self
+        addGestureRecognizer(tap)
+        
+    }
+    @objc fileprivate func buttonTapped(_ sender: UITapGestureRecognizer){
+        print("Bana Basıldı")
+        
+    }
     
+}
+
+fileprivate extension Selector{
+    static let buttonTappedSelector = #selector(ActionButton.buttonTapped)
 }
